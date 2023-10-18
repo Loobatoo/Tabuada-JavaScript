@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --cor-primaria: #9099a2;
+    --Branco: #d5d5d5;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+}
+
+.Container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Branco);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.Container-Inputs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Input-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.Input-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+}
+
+#Calcular {
+    width: 50%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ShowTabuada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Branco);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.operation {
+    font-size: 20px;
+}
